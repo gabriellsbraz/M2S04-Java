@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         boolean isIdadeValida = false;
 
         do {
             System.out.println("Informe sua idade: ");
-            int idade = scanner.nextInt();
+            int idade = scan.nextInt();
             try {
                 validarIdade(idade);
                 System.out.println("Olá, você tem " + idade +" anos de idade!");
